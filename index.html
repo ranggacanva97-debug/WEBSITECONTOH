@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudioWeb - Jasa Pembuatan Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">StudioWeb</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">We Build Digital Experiences</h1>
+                <p class="hero-description">
+                    StudioWeb menghadirkan solusi pembuatan website modern, profesional, dan premium 
+                    untuk membantu bisnis Anda tampil menonjol di dunia digital.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Explore Our Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in">
+                <div class="hero-glow"></div>
+                <div class="hero-card">
+                    <div class="card-header">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <div class="card-content">
+                        <div class="code-line"><span class="code-keyword">&lt;html&gt;</span></div>
+                        <div class="code-line indent"><span class="code-keyword">&lt;body&gt;</span></div>
+                        <div class="code-line indent-2"><span class="code-comment">// Modern & Premium</span></div>
+                        <div class="code-line indent"><span class="code-keyword">&lt;/body&gt;</span></div>
+                        <div class="code-line"><span class="code-keyword">&lt;/html&gt;</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span class="scroll-text">Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Layanan terbaik untuk kebutuhan website Anda</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="5" y="8" width="30" height="20" rx="2" stroke="#00d4ff" stroke-width="2"/>
+                            <path d="M5 12L20 22L35 12" stroke="#00d4ff" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Landing Page</h3>
+                    <p class="service-description">
+                        Halaman tunggal yang menarik untuk promosi produk, campaign, atau event dengan konversi maksimal.
+                    </p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="6" y="6" width="12" height="12" rx="1" stroke="#00d4ff" stroke-width="2"/>
+                            <rect x="22" y="6" width="12" height="12" rx="1" stroke="#00d4ff" stroke-width="2"/>
+                            <rect x="6" y="22" width="12" height="12" rx="1" stroke="#00d4ff" stroke-width="2"/>
+                            <rect x="22" y="22" width="12" height="12" rx="1" stroke="#00d4ff" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Business Website</h3>
+                    <p class="service-description">
+                        Website perusahaan lengkap dengan profil, layanan, galeri, dan informasi kontak untuk kredibilitas bisnis.
+                    </p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="14" r="6" stroke="#00d4ff" stroke-width="2"/>
+                            <path d="M10 32C10 26.477 14.477 22 20 22C25.523 22 30 26.477 30 32" stroke="#00d4ff" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Portfolio Website</h3>
+                    <p class="service-description">
+                        Tampilkan karya terbaik Anda dengan desain elegan, gallery interaktif, dan pengalaman browsing yang smooth.
+                    </p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 12H28M12 18H28M12 24H22" stroke="#00d4ff" stroke-width="2" stroke-linecap="round"/>
+                            <rect x="6" y="8" width="28" height="24" rx="2" stroke="#00d4ff" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">School Website</h3>
+                    <p class="service-description">
+                        Website sekolah dengan informasi akademik, pengumuman, galeri, dan sistem informasi untuk siswa & orang tua.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Our Portfolio</h2>
+                <p class="section-subtitle">Beberapa karya terbaik dari StudioWeb</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">Business</span>
+                        </div>
+                        <div class="portfolio-preview">
+                            <div class="preview-header"></div>
+                            <div class="preview-content">
+                                <div class="preview-line"></div>
+                                <div class="preview-line short"></div>
+                                <div class="preview-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">TechNova Solutions</h3>
+                        <p class="portfolio-desc">Corporate website untuk perusahaan teknologi dengan desain modern dan profesional.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">Portfolio</span>
+                        </div>
+                        <div class="portfolio-preview alt">
+                            <div class="preview-header"></div>
+                            <div class="preview-content">
+                                <div class="preview-circle"></div>
+                                <div class="preview-line center"></div>
+                                <div class="preview-grid">
+                                    <div class="preview-item"></div>
+                                    <div class="preview-item"></div>
+                                    <div class="preview-item"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Alex Creative Studio</h3>
+                        <p class="portfolio-desc">Portfolio personal untuk desainer freelance dengan gallery interaktif dan animasi halus.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card fade-in">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">Landing Page</span>
+                        </div>
+                        <div class="portfolio-preview">
+                            <div class="preview-header"></div>
+                            <div class="preview-hero">
+                                <div class="preview-line large"></div>
+                                <div class="preview-line medium"></div>
+                                <div class="preview-btn"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">LaunchPad Product</h3>
+                        <p class="portfolio-desc">Landing page untuk peluncuran produk SaaS dengan fokus pada konversi dan UX yang optimal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h2 class="section-title">About StudioWeb</h2>
+                    <p class="about-description">
+                        StudioWeb adalah jasa pembuatan website profesional yang berfokus pada desain modern, 
+                        performa optimal, dan pengalaman pengguna yang luar biasa. Kami menggabungkan kreativitas 
+                        dengan teknologi terkini untuk menciptakan website yang tidak hanya indah, tetapi juga 
+                        berfungsi dengan sempurna.
+                    </p>
+                    <p class="about-description">
+                        Setiap proyek dikerjakan dengan perhatian detail, mulai dari konsep desain hingga implementasi, 
+                        memastikan hasil akhir sesuai dengan visi dan tujuan bisnis Anda.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual fade-in">
+                    <div class="about-glow"></div>
+                    <div class="about-card">
+                        <div class="about-card-content">
+                            <h3>Why Choose Us</h3>
+                            <ul class="about-list">
+                                <li>✓ Desain Modern & Premium</li>
+                                <li>✓ Responsif di Semua Device</li>
+                                <li>✓ Animasi Halus & Profesional</li>
+                                <li>✓ Fokus pada User Experience</li>
+                                <li>✓ Kode Bersih & Mudah Dikembangkan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Siap mewujudkan website impian Anda? Hubungi kami sekarang</p>
+            </div>
+            <div class="contact-content">
+                <form class="contact-form fade-in" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Nama Lengkap</label>
+                        <input type="text" id="name" class="form-input" placeholder="Masukkan nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-input" placeholder="nama@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Pesan</label>
+                        <textarea id="message" class="form-textarea" rows="5" placeholder="Ceritakan kebutuhan website Anda..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Kirim Pesan</button>
+                    <p class="form-note">* Form ini hanya demo, tidak mengirim data ke server</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">StudioWeb</span>
+                    <p class="footer-description">
+                        Jasa pembuatan website modern dan premium untuk bisnis Anda.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <p>Email: hello@studioweb.id</p>
+                    <p>Phone: +62 812 3456 7890</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 StudioWeb. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
